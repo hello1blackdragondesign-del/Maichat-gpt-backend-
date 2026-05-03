@@ -1,9 +1,9 @@
 const express = require("express");
 const router = express.Router();
 
-router.post("/", async (req, res) => {
+router.post("/generate", async (req, res) => {
   res.json({
-    voiceReply: "Voice endpoint working"
+    videoUrl: "https://samplelib.com/lib/preview/mp4/sample-5s.mp4"
   });
 });
 
